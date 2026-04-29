@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lizzy's News Consumption Analysis</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=IBM+Plex+Mono:wght@300;400;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@300;400;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lizzy's<br>News Journal</h1>
+            <p class="label">Personal News Consumption Analysis</p>
+        </div>
+        <div class="date-range">
+            2026-01-27
+            <br>
+            ↓
+            <br>
+            2026-04-23
+        </div>
+    </header>
+
+    <!-- Stats Hero -->
+    <div class="stats-hero" id="statsHero"></div>
+
+    <!-- Navigation Tabs -->
+    <nav>
+        <button class="tab active" data-panel="experience">EXPERIENCE</button>
+        <button class="tab" data-panel="timeline">TIMELINE</button>
+        <button class="tab" data-panel="topics">TOPICS & SENTIMENTS</button>
+        <button class="tab" data-panel="diversity">DISCOVERY & DIVERSITY</button>
+        <button class="tab" data-panel="stories">ALL STORIES</button>
+    </nav>
+
+    <div class = "container">
+
+        <!-- Experience Panel -->
+        <div class="panel active" id="experience">
+            <div class="card white">
+                <h2 class="title">What I thought of Share a Story</h2>
+                <p> I registered for this class in hopes of becoming more knowledgeable about news. Using Share a Story has made me more mindful of how
+                    I consume news–specifically the who, what, when, where, and why–so I can share and journal more intentionally. While it was difficult
+                    to share everyday because of other classes and activities, as a Game Design student, I’d find it more enticing if there were game-like
+                    elements. Despite this, I felt that the task of sharing was easy enough to complete almost everyday because it only took 5-10mins.
+                    As feedback to future students, I would recommend downloading many different news apps, so they can easily access different sources.
+                </p>
+            </div>
+        </div>
+
+        <!-- Timeline Panel -->
+        <div class="panel" id="timeline">
+            <div class="card white">
+                <h2 class="title">Quick Insights</h2>
+                <div class="sentiment-grid">
+                    <div class="card yellow">
+                        <div class="label">Most Active Month</div>
+                        <div class="title">February</div>
+                    </div>
+                    <div class="card yellow">
+                        <div class="label">Most Active Day</div>
+                        <div class="title">Tuesday</div>
+                    </div>
+                    <div class="card yellow">
+                        <div class="label">Most Active Time</div>
+                        <div class="title">11PM-12PM</div>
+                    </div>
+                </div>
+                <p> My most active day was Tuesday. This is most likely since our lecture class on Tuesday, so I remember to share. In contrast,
+                    I typically forgot or didn’t share on Sunday. Probably because I wanted to give myself a break over the weekend, or I was working
+                    on my Thesis Project. Timingwise, I usually shared right before the deadline, and I often found myself speedrunning to submit a story.
+                </p>
+            </div>
+
+            <div class="card white">
+                <h2 class="title">Story Capture Timeline</h2>
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: var(--highlight)"></div>
+                        <span>No stories</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: var(--accent)"></div>
+                        <span>1 story</span>
+                    </div>
+                </div>
+                <div class="timeline-gaps" id="timelineGaps"></div>
+                <p> I was most active and consistent in February since most of my classes were introducing topics, rather than assigning projects,
+                    so I had more time to share a story. After spring break, I was a bit less negligent because I became more busy with other classes
+                    and I felt secure based on my current standing–since we were informed of how many stories we needed to share by the end of the semester.
+                </p>
+            </div>
+
+            <div class="card white">
+                <h2 class="title">Timeline Analysis</h2>
+                <div class="stats-hero">
+                    <div class="card">
+                        <div class="label">Longest Streak</div>
+                        <div class="title" id="">12</div>
+                    </div>
+                    <div class="card">
+                        <div class="label">Longest Gap</div>
+                        <div class="title" id="longestGap"></div>
+                    </div>
+                    <div class="card">
+                        <div class="label">Average Gap</div>
+                        <div class="title" id="avgGap"></div>
+                    </div>
+                    <div class="card">
+                        <div class="label">Total Gaps</div>
+                        <div class="title" id="totalGaps"></div>
+                    </div>
+                </div>
+                <p> Supporting my previous analysis, my longest streak was in the beginning of the semester. While the longest gap was over spring break.
+                    Often when I didn’t share, I would try to keep it to 1-2 consecutive days a week, so I could continue sharing 5x a week and reach
+                    my goal.
+                </p>
+            </div>
+        </div>
+
+        <!-- Topics Panel -->
+        <div class="panel" id="topics">
+            <div class="card white">
+                <h2 class="title">Sentiment Breakdown</h2>
+                <div class="bar-chart" id="sentimentChart"></div>
+                <p> In this section, I classified my news as “good” or “bad” because I wanted to know which I read more of. I wondered if I avoided
+                    certain news. However, this classification was difficult because what does good and bad mean? Every article has Pros and Cons
+                    that are good for some people but not for others. So I based it off how I felt: it’s “good news” if a crime is resolved, the
+                    consumer wins, and if the news isn’t bad, then it has to be good. I was surprised to see the results because I thought I shared
+                    more “good news”, since I remember actively trying to avoid sharing “bad news” sometimes to be more positive.
+                </p>
+            </div>
+
+            <div class="card white">
+                <h2 class="title">Emotional Reactions</h2>
+                <p class="label">How stories made you feel</p>
+                <div class="tags" id="emotionCloud"></div>
+                <p> After reviewing my articles’ “This matters because…” data, I tried to remember how I felt when reading each story–analyzing
+                    how I worded each response. Based on this data it appears that I mostly felt curious, often from learning something new.
+                </p>
+            </div>
+
+            <div class="card white">
+                <h2 class="title">Topic Distribution</h2>
+                <div class="bar-chart" id="topicsChart"></div>
+                <p> I also associated each story with a topic. My most frequent topic was culture and technology, and I was surprised that politics 
+                    as 3rd since I often tried to avoid sharing political stories. I would do this by scrolling to the bottom and picking something
+                    that interested me–often not reading more than 1-2 articles before sharing. However, this could be due to the time constraints,
+                    since political stories usually show first on my feed, if I had very little time left to share, I would feel inclined to share
+                    the first thing I saw.
+                </p>
+            </div>
+        </div>
+
+        <!-- Discovery & Diversity Panel -->
+        <div class="panel" id="diversity">
+            <div class="card white">
+                <h2 class="title">News Diet Diversity Score</h2>
+                <div class="sentiment-grid" id="diversityDashboard"></div>
+                <p>Most of my stories are from the NYT, so I think I have a higher risk of echo chamber due to lack of diversity and seeking of other
+                    perspectives. While this may be attributed to being a student in NY and growing up in MA, and it could also be because of the time
+                    constraint. Oftentimes, I found myself continuously using the same news sources to share on time. 
+                </p>
+            </div>
+            <div class="card white">
+                <h2 class="title">Discovery Type Breakdown</h2>
+                <div class="pie-chart">
+                    <svg width="250" height="250" id="pieChart"></svg>
+                    <div class="pie-legend" id="pieLegend"></div>
+                </div>
+                <p>Typically, I shared stories from directly browsing NYT vs. happening to hear of the news from my environment. However, whenever I heard
+                    news in the world, I would share it, but it didn’t happen very often. I wonder if this is because of who I surround myself with or how
+                    often I go out. Or maybe, I did hear news, but I hadn’t considered it news-worthy.
+                </p>
+            </div>
+            <div class="card white">
+                <h2 class="title">Publication Distribution</h2>
+                <div class="bar-chart" id="publicationChart"></div>
+                <!-- <p>info here</p> -->
+            </div>
+        </div>
+
+        <!-- Stories Panel -->
+        <div class="panel" id="stories">
+            <div class="search-filter">
+                <input type="text" class="search-box" id="searchBox" placeholder="Search stories by headline or reflection...">
+                <div class="tags" id="filterPills"></div>
+            </div>
+            <div class="story-grid" id="storyGrid"></div>
+        </div>
+    </div>
+
+    <!-- Data -->
+    <script src="data.js"></script>
+    
+    <!-- Application Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
