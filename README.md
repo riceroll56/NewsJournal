@@ -1,14 +1,5 @@
-## File Structure
-```
-news-dashboard/
-├── index.html          # Main HTML file
-├── styles.css          # All CSS styling
-├── app.js              # Dashboard logic and interactivity
-├── data.js             # Your news data
-└── README.md           # This file
-```
 ## Adding New Stories
-In `data.js`, add to the `stories` array:
+In `data.js`, add `stories` array:
 ```javascript
 {
     happened: "Your story headline",
