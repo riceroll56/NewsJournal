@@ -123,6 +123,8 @@ h1 {
 /* Stats Hero */
 .stats-hero {
     display: grid;
+    padding-left: 2rem;
+    padding-right: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 0;
     border-bottom: 3px solid var(--ink);
