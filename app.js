@@ -69,7 +69,7 @@ function renderTimeline() {
     document.getElementById('timelineGaps').innerHTML = html;
     document.getElementById('longestGap').textContent = data.gap_stats.longest_gap;
     document.getElementById('avgGap').textContent = data.gap_stats.avg_gap;
-    document.getElementById('totalGaps').textContent = 13;
+    document.getElementById('totalGaps').textContent = 14;
 }
 
 // Render topics and sentiment

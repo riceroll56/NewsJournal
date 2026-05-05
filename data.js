@@ -1,12 +1,13 @@
 const data = {
   "publications": {
-    "New York Times": 49,
-    "Instagram": 3,
+    "New York Times": 57,
+    "Instagram": 4,
+    "CNN": 2,
     "Guardian": 2,
+    "NSFP": 1,
     "Mainichi Shimbun": 1,
-    "Google Play": 1,
+    "GooglePlay": 1,
     "WTAJ": 1,
-    "CNN": 1,
     "NBC News": 1,
     "Her Campus": 1,
     "Samsung News": 1,
@@ -14,7 +15,10 @@ const data = {
     "WCVB": 1
   },
   "discovery_methods": {
-    "NYT": 42,
+    "NYT": 50,
+    "My BF said a plane hit a truck at Newark": 1,
+    "Instagram @nsfreepress": 1,
+    "Instagram Reels @channelnewsasia": 1,
     "My prof told me in class": 1,
     "My BF told me that there was more information regarding the case released": 1,
     "Instagram Reels @zohrankmamdani": 1,
@@ -25,10 +29,7 @@ const data = {
     "School, my prof mentioned it, so I looked it up": 1,
     "My mom sent me a WhatsApp Message but she was talking about NPR and the Boston Globe's story, but I couldn't find them": 1,
     "Instagram DMs": 1,
-    "My friend messaged me on Instagram saying Kristi Noem got fired.": 1,
-    "My BF": 1,
-    "NYT after scrolling for a while": 1,
-    "Instagram post": 1
+    "My friend messaged me on Instagram saying Kristi Noem got fired.": 1
   },
   "timeline": [
     {
@@ -53,8 +54,8 @@ const data = {
     },
     {
       "date": "2026-01-31",
-      "count": 0,
-      "has_story": false
+      "count": 1,
+      "has_story": true
     },
     {
       "date": "2026-02-01",
@@ -460,48 +461,290 @@ const data = {
       "date": "2026-04-22",
       "count": 1,
       "has_story": true
+    },
+    {
+      "date": "2026-04-23",
+      "count": 1,
+      "has_story": true
+    },
+    {
+      "date": "2026-04-24",
+      "count": 0,
+      "has_story": false
+    },
+    {
+      "date": "2026-04-25",
+      "count": 1,
+      "has_story": true
+    },
+    {
+      "date": "2026-04-26",
+      "count": 0,
+      "has_story": false
+    },
+    {
+      "date": "2026-04-27",
+      "count": 1,
+      "has_story": true
+    },
+    {
+      "date": "2026-04-28",
+      "count": 1,
+      "has_story": true
+    },
+    {
+      "date": "2026-04-29",
+      "count": 1,
+      "has_story": true
+    },
+    {
+      "date": "2026-04-30",
+      "count": 1,
+      "has_story": true
+    },
+    {
+      "date": "2026-05-01",
+      "count": 1,
+      "has_story": true
+    },
+    {
+      "date": "2026-05-02",
+      "count": 1,
+      "has_story": true
+    },
+    {
+      "date": "2026-05-03",
+      "count": 1,
+      "has_story": true
+    },
+    {
+      "date": "2026-05-04",
+      "count": 1,
+      "has_story": true
+    },
+    {
+      "date": "2026-05-05",
+      "count": 1,
+      "has_story": true
     }
   ],
   "gap_stats": {
-    "total_gaps": 17,
-    "total_gap_days": 28,
-    "avg_gap": 1.6,
+    "total_gaps": 14,
+    "total_gap_days": 25,
+    "avg_gap": 1.8,
     "longest_gap": 9,
-    "days_with_stories": 57,
-    "days_without_stories": 29
+    "days_with_stories": 74,
+    "days_without_stories": 25
   },
   "discovery_types": {
-    "Direct Browse": 46,
-    "Social": 10,
-    "Algorithm": 7
+    "Direct Browse": 55,
+    "Social": 11,
+    "Algorithm": 8
   },
   "months": {
     "February": 25,
-    "April": 17,
+    "April": 22,
     "March": 17,
-    "January": 4
+    "May": 5,
+    "January": 5
   },
   "day_of_week": {
-    "Monday": 6,
-    "Tuesday": 15,
-    "Wednesday": 6,
+    "Monday": 10,
+    "Tuesday": 13,
+    "Wednesday": 11,
     "Thursday": 11,
-    "Friday": 8,
-    "Saturday": 9,
-    "Sunday": 8
+    "Friday": 11,
+    "Saturday": 11,
+    "Sunday": 7
   },
-  "total_stories": 63,
+  "total_stories": 74,
   "date_range": {
     "start": "2026-01-27",
-    "end": "2026-04-23"
+    "end": "2026-05-05"
   },
   "stories": [
+    {
+      "happened": "The Met Gala on Monday, May 4th's theme was \"Fashion as Art\", and celebrities wore their own interpretations of what they think art is.",
+      "matters": "The previous themes were less of celebrating clothes as art and showing the body as a canvas, but more so a chance for celebrities to \"out-do\" each other. It allows people to show their own interpretation and be creative.",
+      "found": "NYT",
+      "publication": "New York Times",
+      "timestamp": "2026-05-05 16:49:16",
+      "link": "https://www.nytimes.com/2026/05/05/style/fashion-art-met-gala.html",
+      "topics": [
+        "Art",
+        "Culture",
+        "Local"
+      ],
+      "sentiment": "Good News",
+      "emotions": [
+        "Curious"
+      ]
+    },
+    {
+      "happened": "Plane hit truck and light pole at Newark as it was landing from Venice.",
+      "matters": "Newark has been having a lot of issues recently and it's one of the closest airports to me. It's concerning that these incidents keep occuring.",
+      "found": "My BF said a plane hit a truck at Newark",
+      "publication": "CNN",
+      "timestamp": "2026-05-04 23:07:38",
+      "link": "https://share.google/yW4Tsn3SqKyM30Z13",
+      "topics": [
+        "Local"
+      ],
+      "sentiment": "Bad News",
+      "emotions": [
+        "Concerned",
+        "Frustrated"
+      ]
+    },
+    {
+      "happened": "On's original business model was to target running athletes, but their brand has reached far beyond that audience--becoming much more mainstream. While they also want to maintain this performance, they also want to further target athletes.",
+      "matters": "On's have become one of the most popular running and walking shoes due to their high comfort. It will be interesting to see how they will be able to handle their goals and if this will cause a decline or if they will be able to compete against Nike.",
+      "found": "NYT",
+      "publication": "New York Times",
+      "timestamp": "2026-05-03 12:53:10",
+      "link": "https://www.nytimes.com/2026/04/25/business/on-running-shoes-expansion.html",
+      "topics": [
+        "Lifestyle",
+        "Technology"
+      ],
+      "sentiment": "Bad News",
+      "emotions": [
+        "Concerned",
+        "Curious"
+      ]
+    },
+    {
+      "happened": "Abortion pill manufacturers asked US Supreme Court to restore mail access to mifepristone pills after court restricted telemedicine distribution, arguing that this ruling and change will disrupt all Americans' abortion access.",
+      "matters": "Preventing abortion medication to be mailed shows how much federal regulation and court decisions can restrict healthcare access even in states without abortion bans. This will impact everyone.",
+      "found": "NYT",
+      "publication": "New York Times",
+      "timestamp": "2026-05-02 23:56:29",
+      "link": "https://www.nytimes.com/2026/05/02/us/politics/supreme-court-mail-abortion-pill.html",
+      "topics": [
+        "Health",
+        "Politics"
+      ],
+      "sentiment": "Bad News",
+      "emotions": [
+        "Concerned",
+        "Frustrated"
+      ]
+    },
+    {
+      "happened": "SJP club members were sitting at their club table, when Anna Kiper--new school faculty--approached the table recording and calling the members antisemitic. One of the members started recording Kiper and they tried to escape the situation, but the club member followed them, to which Kiper striked the student twice in an attempt to get them to stop recording.",
+      "matters": "There seems to be no great impact on Kiper, but the club has been suspended by TNS. Clubs aren't able to practice and a lot of people feared retaliation from administration for sharing the information--lack of freedom of speech.",
+      "found": "Instagram @nsfreepress",
+      "publication": "NSFP",
+      "timestamp": "2026-05-01 14:08:42",
+      "link": "https://www.newschoolfreepress.com/2026/04/29/new-school-professor-allegedly-struck-a-student-students-for-justice-in-palestine-remains-suspended-for-posting-about-the-incident/",
+      "topics": [
+        "Local",
+        "Campus Conflict"
+      ],
+      "sentiment": "Bad News",
+      "emotions": [
+        "Concerned",
+        "Frustrated",
+        "Surprised"
+      ]
+    },
+    {
+      "happened": "Chonkers, a massive sea lion, is captivating people in SF because of his size and flips.",
+      "matters": "Sea lions of this size typically go more inland so it shows how human interference with wildlife impacts animals behavior. The docks that Chonkers goes to are much safer and human made vs. rocky land which can be painful.",
+      "found": "NYT",
+      "publication": "New York Times",
+      "timestamp": "2026-04-30 23:52:16",
+      "link": "https://www.nytimes.com/2026/04/30/us/chonkers-sea-lion-san-francisco.html?smid=nytcore-android-share",
+      "topics": [
+        "Human Interest"
+      ],
+      "sentiment": "Good News",
+      "emotions": [
+        "Amused"
+      ]
+    },
+    {
+      "happened": "Mississippi middle school bus driver had an asthma attack and the kids helped stop the bus.",
+      "matters": "It's a scary moment but the kids helped and were able to protect everyone. It also shows how much awareness kids have.",
+      "found": "NYT",
+      "publication": "New York Times",
+      "timestamp": "2026-04-29 23:24:53",
+      "link": "https://www.nytimes.com/2026/04/29/us/mississippi-students-bus-accident.html?smid=nytcore-android-share",
+      "topics": [
+        "Human Interest"
+      ],
+      "sentiment": "Good News",
+      "emotions": [
+        "Hopeful"
+      ]
+    },
+    {
+      "happened": "In Taiwan, a bus driver cries when an angry passenger insists she pressed the stop button, while the bus driver claims he didn't.",
+      "matters": "Bus driving in Taiwan is a high stress job. They face intense pressure and responsibilities, while not earning a lot.",
+      "found": "Instagram Reels @channelnewsasia",
+      "publication": "Instagram",
+      "timestamp": "2026-04-28 23:48:07",
+      "link": "https://www.instagram.com/reel/DXoExntjAyS/?igsh=MXFrbnBid2ZjNm1uag%3D%3D",
+      "topics": [
+        "Human Interest"
+      ],
+      "sentiment": "Bad News",
+      "emotions": [
+        "Sad"
+      ]
+    },
+    {
+      "happened": "Sometimes \"how are you\" isn't the best opener because it's very generic and doesn't really give the other person any creativity. Instead it can be more meaningful to ask something more specific.",
+      "matters": "Conversations can be hard and it's nice to know ways to improve and make people feel more comfortable.",
+      "found": "NYT",
+      "publication": "New York Times",
+      "timestamp": "2026-04-27 23:36:21",
+      "link": "https://www.nytimes.com/2026/04/17/well/conversation-starters-openers.html?smid=nytcore-android-share",
+      "topics": [
+        "Lifestyle"
+      ],
+      "sentiment": "Good News",
+      "emotions": [
+        "Curious"
+      ]
+    },
+    {
+      "happened": "Many families fear of vaccines stemmed in the early 2000s from a study linking vaccines to autism; however, there have been more measles cases recently from not vaccinating.",
+      "matters": "The people who don't get vaccinated are at risk of getting Measles and other preventable diseases. More people getting Measles gives the disease a chance to evolve, harming more people.",
+      "found": "NYT",
+      "publication": "New York Times",
+      "timestamp": "2026-04-25 23:34:31",
+      "link": "https://www.nytimes.com/2026/04/25/opinion/measles-vaccines-rfk-jr.html?smid=nytcore-android-share",
+      "topics": [
+        "Health"
+      ],
+      "sentiment": "Bad News",
+      "emotions": [
+        "Curious",
+        "Frustrated"
+      ]
+    },
+    {
+      "happened": "NYT created a quiz where you can answer multiple choice questions and it will change the results accordingly--tailoring responses.",
+      "matters": "Interaction is becoming more and more implemented in UIUX and it's interesting how theyre adding it to news elements and increasing user interaction.",
+      "found": "NYT",
+      "publication": "New York Times",
+      "timestamp": "2026-04-23 22:15:55",
+      "link": "https://www.nytimes.com/interactive/2026/04/22/magazine/longevity-health-quiz-nutrition-sleep-exercise-aging.html?smid=nytcore-android-share",
+      "topics": [
+        "Health"
+      ],
+      "sentiment": "Good News",
+      "emotions": [
+        "Curious"
+      ]
+    },
     {
       "happened": "Japanese male fire sergeant suspended for one month for forcing colleagues to play homemade board games at work.",
       "matters": "As a game designer, it's hard to get people to play the games we make, so it's kinda funny but sad that he was suspended for this.",
       "found": "My prof told me in class",
       "publication": "Mainichi Shimbun",
-      "timestamp": "2026-04-23 03:54:57",
+      "timestamp": "2026-04-22 23:54:57",
       "link": "https://mainichi.jp/english/articles/20260414/p2a/00m/0na/021000c",
       "topics": [
         "Technology",
@@ -519,7 +762,7 @@ const data = {
       "matters": "D4vid gained a bigger audience after appearing in SZA's tour as well as having one of his songs in the Invincible sound track. His involvement in the case has been a huge detriment to his musical career, leaving a lot of fans feeling distrustful, disgusted, and surprised of D4vid.",
       "found": "My BF told me that there was more information regarding the case released",
       "publication": "New York Times",
-      "timestamp": "2026-04-21 19:23:53",
+      "timestamp": "2026-04-21 15:23:53",
       "link": "https://www.nytimes.com/2026/04/20/arts/music/d4vd-murder-charges-celeste-rivas-hernandez.html",
       "topics": [
         "Crime",
@@ -535,7 +778,7 @@ const data = {
       "matters": "Housing has become less and less affordable, so this tax will incentivize owners to sell, rent, or pay the tax which will help NYC afford other services.",
       "found": "Instagram Reels @zohrankmamdani",
       "publication": "New York Times",
-      "timestamp": "2026-04-19 03:43:55",
+      "timestamp": "2026-04-18 23:43:55",
       "link": "https://www.nytimes.com/2026/04/18/nyregion/new-york-inequality-second-home-tax.html?smid=nytcore-android-share",
       "topics": [
         "Politics",
@@ -553,7 +796,7 @@ const data = {
       "matters": "A lot of people are reliant on online shopping--buying smth and then getting it the next day. This shop is an ode to in person shopping while making cool clothes.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-04-18 03:55:12",
+      "timestamp": "2026-04-17 23:55:12",
       "link": "https://www.nytimes.com/2026/04/15/style/jake-burt-hoodie.html?smid=nytcore-android-share",
       "topics": [
         "Culture"
@@ -568,7 +811,7 @@ const data = {
       "matters": "D4vid's case blew up on social media, where many content creators had already \"solved\" this case, and a lot of people are confused as to why it's took the police so long to charge D4vid, so him finally being detained shows they will hopefully soon release more official information about the case.",
       "found": "My bf mentioned to me saying \"DAVID FINALLY GOT ARRESTED\"",
       "publication": "New York Times",
-      "timestamp": "2026-04-17 03:28:55",
+      "timestamp": "2026-04-16 23:28:55",
       "link": "https://www.nytimes.com/2026/04/16/arts/music/d4vd-charged-teen-death-tesla.html?smid=nytcore-android-share",
       "topics": [
         "Crime",
@@ -585,7 +828,7 @@ const data = {
       "matters": "Making it harder for people to file taxes affects lower income households because of possible language barriers and costs--these households are less likely to be able to afford tax refund programs like TurboTax.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-04-16 00:21:07",
+      "timestamp": "2026-04-15 20:21:07",
       "link": "https://www.nytimes.com/2026/04/04/opinion/taxes-trump-direct-file-tax-day-april.html",
       "topics": [
         "Politics",
@@ -602,7 +845,7 @@ const data = {
       "matters": "People are rethinking whether they want to commute anymore and many people are associating the crime with Mamdani's recent election and blaming the police force.",
       "found": "Instagram Reels @big1apple1vibes",
       "publication": "Instagram",
-      "timestamp": "2026-04-14 15:38:48",
+      "timestamp": "2026-04-14 11:38:48",
       "link": "https://www.instagram.com/reel/DW_9lDgEXkC/?igsh=dnlqMjNpemVwMnc=",
       "topics": [
         "Crime",
@@ -619,7 +862,7 @@ const data = {
       "matters": "There have been increased reports where people listen to AI, when it's medical advice is not sound. A lot of the times it makes up statistics and people aren't able to tell, leading them to make mistakes and reject professional advice.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-04-14 03:55:58",
+      "timestamp": "2026-04-13 23:55:58",
       "link": "https://www.nytimes.com/2026/04/13/well/ai-chatbots-cancer.html?smid=nytcore-android-share",
       "topics": [
         "Technology",
@@ -634,8 +877,8 @@ const data = {
       "happened": "Jenny Xu, CEO of Talofa Games, shares her experience of making many games and her inspiration behind them, as well as how she got into the game development industry in the first place.",
       "matters": "Since I'm graduating from Parsons DT soon, I've been curious how people get into the industry, especially women since this industry is notorious for undermining women.",
       "found": "I saw it on the Google Play homepage randomly as I was looking for a new app to download",
-      "publication": "Google Play",
-      "timestamp": "2026-04-13 03:37:38",
+      "publication": "GooglePlay",
+      "timestamp": "2026-04-12 23:37:38",
       "link": "https://play.google.com/store/apps/editorial?id=mc_games_editorialevergreen_indiedevinterviewseries_talofa_fcp",
       "topics": [
         "Technology",
@@ -651,7 +894,7 @@ const data = {
       "matters": "Teens, who aren't even eligible to drive a car yet, should not be able to have access to drive trains, and this puts a lot of civilians at risk because of MTA's negligence.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-04-10 23:06:08",
+      "timestamp": "2026-04-10 19:06:08",
       "link": "https://www.nytimes.com/2026/04/10/nyregion/nyc-subway-conquesting-joyride.html",
       "topics": [
         "Technology",
@@ -667,7 +910,7 @@ const data = {
       "matters": "As technology becomes more advanced, editing baby's genes can be life saving but also cause ethical concerns where parents may take advantage of this technology to change genes based on what the parents want. While technology hasn't reached this point yet, because it's very expensive and risky, this could be a future issue that only rich people have access to.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-04-09 18:16:18",
+      "timestamp": "2026-04-09 14:16:18",
       "link": "https://www.nytimes.com/2026/04/09/opinion/genetic-editing-diseases-health-care.html",
       "topics": [
         "Technology",
@@ -685,7 +928,7 @@ const data = {
       "matters": "As a senior at Parsons, unemployment is near, and many people can't find jobs either. I'm wondering what more I can do and what it will mean for my relationship while searching for a job.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-04-07 19:04:53",
+      "timestamp": "2026-04-07 15:04:53",
       "link": "https://www.nytimes.com/2026/04/04/business/my-husband-cant-get-a-job-should-i-divorce-him.html",
       "topics": [
         "Technology",
@@ -701,7 +944,7 @@ const data = {
       "matters": "We live in NY and closets tends to be pretty small despite needing lots of clothes because people in NY are known for being fashionable and well put together. I was hoping this article would provide a lot of new and unique products but it was mostly pretty obvious items.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-04-07 03:03:16",
+      "timestamp": "2026-04-06 23:03:16",
       "link": "https://www.nytimes.com/wirecutter/reviews/closet-organizing-ideas/",
       "topics": [
         "Culture"
@@ -716,7 +959,7 @@ const data = {
       "matters": "Matcha lattes are more expensive than cafe lattes. Many people pay a premium price for these benefits, while they don't actually exist. Perhaps the popularity is also growing due to the appeal of Japanese culture. Many wellness trends seem to follow this pattern of taking/\"discovering\" something from another culture, claiming it has added health benefits, increasing the price, and selling to a western audience who think \"exotic\" products are more \"authentic\"--like kombucha and acai bowls.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-04-04 02:30:47",
+      "timestamp": "2026-04-03 22:30:47",
       "link": "https://www.nytimes.com/2026/03/17/well/eat/matcha-caffeine-coffee.html",
       "topics": [
         "Politics",
@@ -735,7 +978,7 @@ const data = {
       "matters": "The answer they gave was already pretty obvious, and didn't really get at the heart of the topic. With social media, filters, etc. people's ideal body type has become more and more unrealistic. Shapewear companies target women insecurities and body dysmorphia while knowing that the product is expensive, uncomfortable.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-04-03 03:47:48",
+      "timestamp": "2026-04-02 23:47:48",
       "link": "https://www.nytimes.com/2026/03/30/fashion/shapewear-spanx-skims.html?smid=nytcore-android-share",
       "topics": [
         "Technology",
@@ -751,7 +994,7 @@ const data = {
       "matters": "Now issues can be ruled as illegal but still affect a lot of people so the government can perform more questionable acts.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-04-02 02:23:52",
+      "timestamp": "2026-04-01 22:23:52",
       "link": "https://www.nytimes.com/2026/04/01/opinion/birthright-citizenship-case-trump.html?smid=nytcore-android-share",
       "topics": [
         "Politics"
@@ -766,7 +1009,7 @@ const data = {
       "matters": "Walking and running around NYC constantly really wears down people's shoes, and I usually replace them after a semester, so I was curious on how often we should really be replacing them.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-04-01 03:57:39",
+      "timestamp": "2026-03-31 23:57:39",
       "link": "https://www.nytimes.com/2026/03/31/well/move/replace-running-shoes.html?smid=nytcore-android-share",
       "topics": [
         "Local",
@@ -782,7 +1025,7 @@ const data = {
       "matters": "Being quicker will prevent people from stopping the construction especially since a lot of the renovations are unnecessarily grand.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-03-30 03:31:21",
+      "timestamp": "2026-03-29 23:31:21",
       "link": "https://www.nytimes.com/interactive/2026/03/29/upshot/white-house-ballroom.html?smid=nytcore-android-share",
       "topics": [
         "Politics",
@@ -798,7 +1041,7 @@ const data = {
       "matters": "My mom continues to dye her hair and some of her friends have been asking her when shes going to stop. Although it's a personal choice, I never thought about the connotations of having grey hair.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-03-29 03:00:57",
+      "timestamp": "2026-03-28 23:00:57",
       "link": "https://www.nytimes.com/2026/03/23/fashion/gray-hair-natural-dye.html?smid=nytcore-android-share",
       "topics": [
         "Politics"
@@ -813,7 +1056,7 @@ const data = {
       "matters": "Food is love, sharing food and enjoying a meal together brings people closer together and helps people feel connected, and more restaurants means more new foods to try.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-03-28 03:17:05",
+      "timestamp": "2026-03-27 23:17:05",
       "link": "https://www.nytimes.com/2026/03/26/realestate/communities-for-living-working-playing-eating.html?smid=nytcore-android-share",
       "topics": [
         "Culture"
@@ -828,7 +1071,7 @@ const data = {
       "matters": "Japan has one of the lowest crime rates and is known for having banned guns, so this challenges Japan's notability for safety.",
       "found": "Instagram Reels talking about the story, I then looked up an article about it to get more info",
       "publication": "WTAJ",
-      "timestamp": "2026-03-27 03:35:27",
+      "timestamp": "2026-03-26 23:35:27",
       "link": "https://share.google/hDffRzPUt6Wwi8EP5",
       "topics": [
         "Crime",
@@ -844,7 +1087,7 @@ const data = {
       "matters": "ICE agents are not qualified to be working as TSA agents and shouldn't be allowed to operate their equipment without the proper training beforehand.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-03-26 02:15:30",
+      "timestamp": "2026-03-25 22:15:30",
       "link": "https://www.nytimes.com/2026/03/25/us/ice-airports-checking-ids-security.html?smid=nytcore-android-share",
       "topics": [
         "Politics"
@@ -859,7 +1102,7 @@ const data = {
       "matters": "This was brought to my attention during class, and I never knew this, although the article is new, I was interested to hear about it because I just learned that chickens are domesticated animals too, and they all evolved to benefit humans.",
       "found": "School, my prof mentioned it, so I looked it up",
       "publication": "Guardian",
-      "timestamp": "2026-03-24 22:08:38",
+      "timestamp": "2026-03-24 18:08:38",
       "link": "https://www.theguardian.com/world/2018/nov/28/it-is-more-cruel-not-to-shear-sheep",
       "topics": [
         "Culture"
@@ -874,7 +1117,7 @@ const data = {
       "matters": "One of Angwin's strengths as a journalist, is writing well, and grammarly suggesting bad edits and without Angwin's permission devalues her as a journalist.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-03-14 09:59:33",
+      "timestamp": "2026-03-14 05:59:33",
       "link": "https://www.nytimes.com/2026/03/13/opinion/ai-doppelganger-deepfake-grammarly.html?smid=nytcore-android-share",
       "topics": [
         "Technology"
@@ -889,7 +1132,7 @@ const data = {
       "matters": "Lots of technologies are based off animal behaviors and adaptations, in the future this could be a technological advancement for humans.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-03-12 03:06:38",
+      "timestamp": "2026-03-11 23:06:38",
       "link": "https://www.nytimes.com/2026/03/11/science/falling-cat-problem.html?smid=nytcore-android-share",
       "topics": [
         "Technology"
@@ -904,7 +1147,7 @@ const data = {
       "matters": "Spring break is next week and this week for other schools, and lots of people are going to be flying, so a lot of people are going to be impacted.",
       "found": "My mom sent me a WhatsApp Message but she was talking about NPR and the Boston Globe's story, but I couldn't find them",
       "publication": "CNN",
-      "timestamp": "2026-03-11 03:41:48",
+      "timestamp": "2026-03-10 23:41:48",
       "link": "https://youtu.be/ERozkcrhqSs?si=PNSucNxVZYB19CzA",
       "topics": [
         "Politics"
@@ -920,7 +1163,7 @@ const data = {
       "matters": "Blue Bottle Coffee is a beloved chain and Luckin Coffee is just starting to settle into NYC, it will be interesting to see whether Blue Bottles quality will diminish since Luckin Coffee is known for being inexpensive.",
       "found": "Instagram DMs",
       "publication": "Instagram",
-      "timestamp": "2026-03-10 03:37:45",
+      "timestamp": "2026-03-09 23:37:45",
       "link": "https://www.instagram.com/p/DVhPsZoDRs1/?igsh=MWl2eWkyZnE4Zm5zbw==",
       "topics": [
         "Technology",
@@ -936,7 +1179,7 @@ const data = {
       "matters": "Everything is becoming expensive. Even McDonald's can come out to be $20 if one isn't careful and it will be interesting to see how this affects the businesses.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-03-08 04:57:28",
+      "timestamp": "2026-03-07 00:57:28",
       "link": "https://www.nytimes.com/2026/03/06/business/chipotle-cava-sweetgreen-bowl-sales-prices.html?smid=nytcore-android-share",
       "topics": [
         "Culture",
@@ -953,7 +1196,7 @@ const data = {
       "matters": "I eat Trader Joe's food and considering that their could be foreign elements in it is scary.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-03-07 03:21:30",
+      "timestamp": "2026-03-06 23:21:30",
       "link": "https://www.nytimes.com/2026/03/04/us/trader-joes-recall-frozen-asian-food.html?smid=nytcore-android-share",
       "topics": [
         "Culture"
@@ -969,7 +1212,7 @@ const data = {
       "matters": "She demonized immigrants and allowed many Americans to die, despite these actions, she maintained her position, but after she said one thing wrong, she got ousted--the system shows how performative loyalty is rewarded but dissent is not tolerated.",
       "found": "My friend messaged me on Instagram saying Kristi Noem got fired.",
       "publication": "Guardian",
-      "timestamp": "2026-03-06 04:49:23",
+      "timestamp": "2026-03-05 23:49:23",
       "link": "https://www.theguardian.com/us-news/2026/mar/05/kristi-noem-fired",
       "topics": [
         "Politics"
@@ -984,7 +1227,7 @@ const data = {
       "matters": "Mcdonalds branding and advertising teams OK this video and thought that it was either good or too scared to voice their opinion, shows group dynamics and groupthink in a corporate setting.",
       "found": "My BF",
       "publication": "NBC News",
-      "timestamp": "2026-03-05 03:30:49",
+      "timestamp": "2026-03-04 23:30:49",
       "link": "https://www.nbcnews.com/pop-culture/pop-culture-news/mcdonalds-burger-king-beef-ceos-viral-video-rcna261689",
       "topics": [
         "Technology",
@@ -1000,7 +1243,7 @@ const data = {
       "matters": "Many people are pet enthusiasts and pets have a lot of abilities to help people psychologically and physically, but this adds another reason that isn't geared towards mental health.",
       "found": "NYT after scrolling for a while",
       "publication": "New York Times",
-      "timestamp": "2026-03-04 04:49:52",
+      "timestamp": "2026-03-03 23:49:52",
       "link": "https://www.nytimes.com/2026/03/03/well/pet-longevity-health-benefits.html?smid=nytcore-android-share",
       "topics": [
         "Health"
@@ -1015,7 +1258,7 @@ const data = {
       "matters": "Despite the couple claiming that the break up was mutual, the internet has primarily blamed it on Kyedae, claiming that she is a leech and used Tenz and that she probably cheated on him. This shows the hidden misogyny and parasocialism in the community and that people assume the worst from the female and the best from the male in the relationship.",
       "found": "Instagram post",
       "publication": "Her Campus",
-      "timestamp": "2026-03-03 02:09:42",
+      "timestamp": "2026-03-02 22:09:42",
       "link": "https://www.hercampus.com/school/sjsu/the-tenz-and-kyedae-break-up-misogyny-and-parasocialism-represented-in-the-gaming-community/",
       "topics": [
         "Technology"
@@ -1030,7 +1273,7 @@ const data = {
       "matters": "Any topic and politics have become intertwined and this phone call raised concerns about respect towards women athletes and shows how AI can change people's opinions.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-03-01 04:51:10",
+      "timestamp": "2026-02-28 23:51:10",
       "link": "https://www.nytimes.com/athletic/7070904/2026/02/26/tkachuk-sanderson-senators-trump-usa-olympics/?source=athletic_user_shared_article_copylink&smid=url-share-ta",
       "topics": [
         "Politics",
@@ -1047,7 +1290,7 @@ const data = {
       "matters": "Everyone struggles to share how they're feeling and fail to realize other people's perspectives. This column helps acknowledge that and help people answer their social questions.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-28 04:38:50",
+      "timestamp": "2026-02-27 23:38:50",
       "link": "https://www.nytimes.com/2026/02/25/style/conversation-monopolizers-strategies.html?smid=nytcore-android-share",
       "topics": [
         "Culture"
@@ -1063,7 +1306,7 @@ const data = {
       "matters": "As we are all getting older, buying a home will be in the far future but I have been worried considering how expensive homes are. If they get cheaper, this will be beneficial for me.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-25 23:05:31",
+      "timestamp": "2026-02-25 19:05:31",
       "link": "https://www.nytimes.com/2026/02/25/realestate/buyers-market-mortage-rates.html",
       "topics": [
         "Culture",
@@ -1082,7 +1325,7 @@ const data = {
       "matters": "I can't imagine having to go through that, everyday I subconsciously think about the things that can go wrong and the uncertainties I have and it seems so traumatizing and scary to be in this situation where you have no control.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-25 04:22:51",
+      "timestamp": "2026-02-24 23:22:51",
       "link": "https://www.nytimes.com/2026/02/24/nyregion/joseph-lynskey-nyc-subway-shove-lawsuit.html?smid=nytcore-android-share",
       "topics": [
         "Culture",
@@ -1099,7 +1342,7 @@ const data = {
       "matters": "This is one of the worst storms in a while and I can't imagine having to ride a bike or drive a car through it.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-24 04:21:26",
+      "timestamp": "2026-02-23 23:21:26",
       "link": "https://www.nytimes.com/2026/02/23/nyregion/nyc-winter-storm-deliverista.html?smid=nytcore-android-share",
       "topics": [
         "Politics",
@@ -1118,7 +1361,7 @@ const data = {
       "matters": "While AI is decreasing jobs in many fields, it will be interesting how it will take the jobs people don't want.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-23 03:45:35",
+      "timestamp": "2026-02-22 23:45:35",
       "link": "https://www.nytimes.com/2026/02/22/world/asia/japan-ai-politics-election.html?smid=nytcore-android-share",
       "topics": [
         "Politics",
@@ -1136,7 +1379,7 @@ const data = {
       "matters": "I recently heard from someone that their friend got released from a Texas holding after 4 months. For some days he only ate a cookie because the food was inedible, the treatment there is so awful and it feels like there's not much we can do.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-22 04:58:45",
+      "timestamp": "2026-02-21 23:58:45",
       "link": "https://www.nytimes.com/2026/02/21/opinion/concentration-camp-andrea-pitzer.html?smid=nytcore-android-share",
       "topics": [
         "Politics",
@@ -1152,7 +1395,7 @@ const data = {
       "matters": "This is heart breaking for families that have been receiving care for many years, and now they have to frantically find a new provider, praying that they don't change policies in the future too.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-21 04:19:35",
+      "timestamp": "2026-02-20 23:19:35",
       "link": "https://www.nytimes.com/2026/02/19/nyregion/transgender-adolescents-nyu-langone-program-eliminated.html?smid=nytcore-android-share",
       "topics": [
         "Politics",
@@ -1168,7 +1411,7 @@ const data = {
       "matters": "It's funny how languages become transliterated, this happens a lot in Chinese and it's always fun to see the memes that come out of it.",
       "found": "TikTok",
       "publication": "New York Times",
-      "timestamp": "2026-02-20 04:24:08",
+      "timestamp": "2026-02-19 23:24:08",
       "link": "https://www.nytimes.com/2026/02/19/world/asia/lunar-new-year-china-felton-malfoy-harry-potter.html?smid=nytcore-android-share",
       "topics": [
         "International"
@@ -1183,7 +1426,7 @@ const data = {
       "matters": "This story caught my eye and it made me think about freedom of speech, technically he's allowed to do these things, but whether theyre ethically or morally right is another question",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-19 04:22:28",
+      "timestamp": "2026-02-18 23:22:28",
       "link": "https://www.nytimes.com/athletic/7054258/2026/02/18/kevin-durant-x-burner-accounts-rockets/?source=athletic_user_shared_article_copylink&smid=url-share-ta",
       "topics": [
         "Technology",
@@ -1199,7 +1442,7 @@ const data = {
       "matters": "Mass shootings happen every day and these people are just allowed to kill other people, this shouldn't be okay.",
       "found": "Samsung notification",
       "publication": "Samsung News",
-      "timestamp": "2026-02-17 03:53:10",
+      "timestamp": "2026-02-16 23:53:10",
       "link": "https://www.samsung-news.com/articles/v2i2uZb8vG0ntmrqFAu1cQ-en-US?section=top_news&vc=760016000&action=news&tab=foryou&landing=news_detail&url=https%3A%2F%2Fwww.samsung-news.com%2Farticles%2Fv2i2uZb8vG0ntmrqFAu1cQ-en-US%3Fsection%3Dtop_news%26vc%3D760016000&id=v2i2uZb8vG0ntmrqFAu1cQ-en-US&pub_id=newsweek.com&pub=Newsweek&pub_logo=https%3A%2F%2Fnews-image.samsung-news.com%2Flogo%2Fcustom%2FNewsweek%2Fnewsweek-logo.png&theme_color=%23f7210f&referrer=share-news&title=Rhode%20Island%20hockey%20shooting%3A%20Video%20shows%20frantic%20moments%20inside%20arena&rss_url=https%3A%2F%2Fwww.newsweek.com%2Feyewitness-account-video-rhode-island-hockey-arena-shooting-11532374%3Futm_source%3Dsnews%26utm_medium%3Dreferral&img=https%3A%2F%2Fimage.samsung-news.com%2Fapi%2Fv1%2Fimage%2Fstatic%2Fw%3D700%2Ch%3D394%2Cface%3Dfalse%2Cstyle%3DLANDSCAPE%2Fhttps%3A%2F%2Fassets.newsweek.com%2Fwp-content%2Fuploads%2F2026%2F02%2FAP26047751205313.jpg&pub_time=2026-02-17T03%3A00%3A48Z&ed=en_US&section_type=headlines&category_id=news",
       "topics": [
         "Crime",
@@ -1215,7 +1458,7 @@ const data = {
       "matters": "There's so many options and different brands that it can be confusing for buyers.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-16 04:12:32",
+      "timestamp": "2026-02-15 23:12:32",
       "link": "https://www.nytimes.com/card/2026/02/13/smarter-living/wirecutter/?smid=nytcore-android-share",
       "topics": [
         "Beauty",
@@ -1231,7 +1474,7 @@ const data = {
       "matters": "I often feel like drinking benefits me by making me more sociable; although, I understand the side affects long term and short term, I'm not sure if I want to avoid alcohol.",
       "found": "My mom",
       "publication": "New York Times",
-      "timestamp": "2026-02-15 04:11:15",
+      "timestamp": "2026-02-14 23:11:15",
       "link": "https://www.nytimes.com/2026/02/10/health/social-drinking-risks-alcohol.html?smid=nytcore-android-share",
       "topics": [
         "Culture",
@@ -1247,7 +1490,7 @@ const data = {
       "matters": "My boyfriend has waxy ears and I wondered why, maybe this contributes to it.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-14 04:30:47",
+      "timestamp": "2026-02-13 23:30:47",
       "link": "https://www.nytimes.com/wirecutter/reviews/advice-wearing-earplugs-every-night/",
       "topics": [
         "Lifestyle"
@@ -1263,7 +1506,7 @@ const data = {
       "matters": "Living in NY, it takes up a lot of space to have many types of cleaners, having one that can do everything is cheaper and efficient.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-13 02:32:15",
+      "timestamp": "2026-02-12 22:32:15",
       "link": "https://www.nytimes.com/video/smarter-living/wirecutter/100000010669048/some-of-our-favorite-dish-soap-hacks.html?smid=nytcore-android-share",
       "topics": [
         "Lifestyle"
@@ -1278,7 +1521,7 @@ const data = {
       "matters": "I'm from Massachusetts and I drink coffee. I tried a floral fruit coffee in London and it tasted like a gross gummy bear. I wonder if this is better.",
       "found": "Looking up Boston News",
       "publication": "NBC Boston",
-      "timestamp": "2026-02-12 03:20:12",
+      "timestamp": "2026-02-11 23:20:12",
       "link": "https://www.nbcboston.com/news/local/this-specialty-coffee-offers-a-taste-of-the-world-in-boston-for-24-a-cup/3896563/",
       "topics": [
         "Culture",
@@ -1296,7 +1539,7 @@ const data = {
       "matters": "I'm from this hometown and went to this elementary school, although it was called Paul Hanlon school at the time this is the new renovation ver.",
       "found": "Looked up local news",
       "publication": "WCVB",
-      "timestamp": "2026-02-10 19:27:02",
+      "timestamp": "2026-02-10 15:27:02",
       "link": "https://share.google/42mPiqz0UwPDkNoHs",
       "topics": [
         "Sports",
@@ -1313,7 +1556,7 @@ const data = {
       "matters": "Ilia Malinin won gold at the winter Olympics and hes the first and only to perform a 4A in competition",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-10 03:35:19",
+      "timestamp": "2026-02-09 23:35:19",
       "link": "https://www.nytimes.com/2026/02/09/world/olympics/ilia-malinin-ice-skating-winter-olympics.html?smid=nytcore-android-share",
       "topics": [
         "Culture",
@@ -1329,7 +1572,7 @@ const data = {
       "matters": "I'm from Massachusetts and I watched the Super Bowl also Drake Maye lives in my hometown.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-09 04:08:50",
+      "timestamp": "2026-02-08 23:08:50",
       "link": "https://www.nytimes.com/athletic/7030353/2026/02/08/super-bowl-2026-winner-score-results-seahawks-patriots/?source=athletic_user_shared_article_copylink&smid=url-share-ta",
       "topics": [
         "Sports"
@@ -1344,7 +1587,7 @@ const data = {
       "matters": "I always thought curling was funny to watch because it seemed like they weren't sweeping anything, but its because the ice is lightly listed beforehand, creating pebbles on the ice.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-08 04:43:07",
+      "timestamp": "2026-02-07 23:43:07",
       "link": "https://www.nytimes.com/athletic/7027221/2026/02/07/why-sweep-ice-curling-olympics/?source=athletic_user_shared_article_copylink&smid=url-share-ta",
       "topics": [
         "Sports"
@@ -1359,7 +1602,7 @@ const data = {
       "matters": "I went there today and the staff said the event was shut down eventhough it was supposed to end at 6PM",
       "found": "Instagram Reels",
       "publication": "Instagram",
-      "timestamp": "2026-02-07 04:24:45",
+      "timestamp": "2026-02-06 23:24:45",
       "link": "https://www.instagram.com/reel/DUbahBwkVzf/?igsh=NXVxdGh4N2ZuOTdx",
       "topics": [
         "Technology"
@@ -1375,7 +1618,7 @@ const data = {
       "matters": "We live in NY and Mamdani is supposed to protect these people.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-05 13:45:47",
+      "timestamp": "2026-02-05 09:45:47",
       "link": "https://www.nytimes.com/2026/01/27/well/food-diet-nutrition-cancer-risk.html?smid=nytcore-android-share",
       "topics": [
         "Politics"
@@ -1391,7 +1634,7 @@ const data = {
       "matters": "Yesterday I posted something about a Japanese Pizza popup in NYC and the owner's flight got delayed due to the storm, I thought they were referring to the storm in NYC. I didn't know there was also a storm there.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-03 20:02:11",
+      "timestamp": "2026-02-03 16:02:11",
       "link": "https://www.nytimes.com/video/world/asia/100000010686677/japan-snow-deaths.html",
       "topics": [
         "Local",
@@ -1408,7 +1651,7 @@ const data = {
       "matters": "I was js in Tokyo and I wanted to try the famous pizzas lmao, lowk I had pizza in Italy and it was js ok, I heard some from Tokyo are really good though.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-03 04:54:00",
+      "timestamp": "2026-02-02 23:54:00",
       "link": "https://www.nytimes.com/2026/01/29/dining/tokyo-pizza-studio-tamaki-nyc-opening.html?smid=nytcore-android-share",
       "topics": [
         "International"
@@ -1423,7 +1666,7 @@ const data = {
       "matters": "The Epstein files and our president. I was confused before because like how can they have so much info but he's not convicted of anything how is he allowed to be president?",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-02 03:52:19",
+      "timestamp": "2026-02-01 23:52:19",
       "link": "https://www.nytimes.com/2026/02/01/us/trump-epstein-files.html?smid=nytcore-android-share",
       "topics": [
         "Politics",
@@ -1441,7 +1684,7 @@ const data = {
       "matters": "The Epstein files were released and all the influential billionaires are involved, why and how are they not in jail...",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-02-01 04:43:30",
+      "timestamp": "2026-01-31 23:43:30",
       "link": "https://www.nytimes.com/2026/01/31/us/epstein-powerful-men.html?smid=nytcore-android-share",
       "topics": [
         "Technology",
@@ -1458,7 +1701,7 @@ const data = {
       "matters": "ICE is heavily prevalent and we can feel helpless on what we can do to help, this is something everyone is capable of doing to show their solidarity.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-01-30 20:19:05",
+      "timestamp": "2026-01-30 16:19:05",
       "link": "https://www.nytimes.com/2026/01/30/style/minnesota-ice-red-hats-knit.html",
       "topics": [
         "Politics"
@@ -1473,7 +1716,7 @@ const data = {
       "matters": "Putting on a sweater today, I noticed it was super pilled and I have other sweaters that pill really heavily and leave fibers on shirts underneath etc. This is really annoying to me and I wanted to find a solution to minimize that. I don't know if this is the best way, and I'm afraid to use a shaver on my sweater, but so far this seems like the best method.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-01-29 18:49:43",
+      "timestamp": "2026-01-29 14:49:43",
       "link": "https://www.nytimes.com/wirecutter/reviews/fabric-shavers-101/",
       "topics": [
         "Technology",
@@ -1490,7 +1733,7 @@ const data = {
       "matters": "As we all grow older, we have to take care of our bodies to give it the best opportunities when we are older, not js in terms of cancer but for other health benefits.",
       "found": "New York Times",
       "publication": "New York Times",
-      "timestamp": "2026-01-28 09:58:33",
+      "timestamp": "2026-01-28 05:58:33",
       "link": "https://www.nytimes.com/2026/01/27/well/food-diet-nutrition-cancer-risk.html?smid=nytcore-android-share",
       "topics": [
         "Health",
@@ -1506,7 +1749,7 @@ const data = {
       "matters": "I feel like I don't consume the news enough, and when I do consume it, it is in bits and pieces, so this story matters to me because I was able to fill in the gaps of things that I already knew and learn a lot of new things about our administration.",
       "found": "NYT",
       "publication": "New York Times",
-      "timestamp": "2026-01-27 20:20:26",
+      "timestamp": "2026-01-27 16:20:26",
       "link": "https://www.nytimes.com/live/2026/01/27/us/minneapolis-shooting-ice-minnesota",
       "topics": [
         "Politics",
@@ -1520,88 +1763,53 @@ const data = {
     }
   ],
   "topics": {
-    "Technology": 22,
-    "Culture": 26,
+    "Art": 1,
+    "Culture": 27,
+    "Local": 10,
+    "Lifestyle": 5,
+    "Technology": 23,
+    "Health": 9,
+    "Politics": 19,
+    "Campus Conflict": 1,
+    "Human Interest": 3,
     "International": 6,
     "Crime": 5,
-    "Politics": 18,
-    "Local": 7,
     "Social Issues": 3,
     "Personal Finance": 6,
-    "Health": 6,
     "Business": 8,
     "Education": 2,
     "Sports": 7,
     "Environment": 2,
-    "Beauty": 1,
-    "Lifestyle": 3
+    "Beauty": 1
   },
   "sentiment": {
-    "Good News": 34,
-    "Bad News": 29
+    "Good News": 39,
+    "Bad News": 35
   },
   "emotions": {
-    "Amused": 5,
-    "Sad": 3,
-    "Surprised": 3,
-    "Hopeful": 7,
-    "Curious": 23,
-    "Frustrated": 11,
-    "Concerned": 17,
+    "Curious": 28,
+    "Concerned": 21,
+    "Frustrated": 15,
+    "Surprised": 4,
+    "Amused": 6,
+    "Hopeful": 8,
+    "Sad": 4,
     "Skeptical": 3,
     "Angry": 4,
     "Reflective": 4,
     "Grateful": 1
   },
   "diversity_metrics": {
-    "topic_diversity": 15,
-    "topic_concentration": 0.121,
-    "publication_diversity": 12,
-    "publication_concentration": 0.61,
+    "topic_diversity": 18,
+    "topic_concentration": 0.108,
+    "publication_diversity": 13,
+    "publication_concentration": 0.599,
     "discovery_diversity": 15,
     "sentiment_balance": {
-      "positive_ratio": 0.5396825396825397,
-      "negative_ratio": 0.4603174603174603,
-      "neutral_ratio": 0.0
+      "positive_ratio": 0.527027027027027,
+      "negative_ratio": 0.47297297297297297
     },
-    "diversity_grade": "B-",
+    "diversity_grade": "B+",
     "echo_chamber_risk": "High"
-  },
-  "google_trends": {
-    "Culture": {
-      "your_interest": 41.3,
-      "global_trend": 40,
-      "variance": "+3%"
-    },
-    "Technology": {
-      "your_interest": 34.9,
-      "global_trend": 40,
-      "variance": "-13%"
-    },
-    "Politics": {
-      "your_interest": 28.6,
-      "global_trend": 40,
-      "variance": "-28%"
-    },
-    "Business": {
-      "your_interest": 12.7,
-      "global_trend": 40,
-      "variance": "-68%"
-    },
-    "Local": {
-      "your_interest": 11.1,
-      "global_trend": 40,
-      "variance": "-72%"
-    },
-    "Sports": {
-      "your_interest": 11.1,
-      "global_trend": 40,
-      "variance": "-72%"
-    },
-    "International": {
-      "your_interest": 9.5,
-      "global_trend": 40,
-      "variance": "-76%"
-    }
   }
 };

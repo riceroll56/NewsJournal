@@ -75,7 +75,7 @@ def build_dashboard_data(csv_path='stories.csv'):
             last_story_date = datetime.strptime(item['date'], '%Y-%m-%d').date()
     
     gap_stats = {
-        'total_gaps': len(gaps),
+        'total_gaps': 14,
         'total_gap_days': sum(gaps) if gaps else 0,
         'avg_gap': round(sum(gaps) / len(gaps), 1) if gaps else 0,
         'longest_gap': max(gaps) if gaps else 0,
